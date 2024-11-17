@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const description = document.getElementById("description");
   const humidity = document.getElementById("humidity");
   const windSpeed = document.getElementById("wind-speed");
-  const API_KEY = "e96839b642eb7a8940cdfab4b38a9ebb";
+  const API_KEY = "your_api_key";
 
   getWeatherBtn.addEventListener("click", async function () {
     const city = cityInput.value.trim();
